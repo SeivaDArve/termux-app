@@ -24,6 +24,7 @@ Quick how-to about Termux package management is available at [Package Management
 ## Contents
 - [Termux App and Plugins](#termux-app-and-plugins)
 - [Installation](#installation)
+- [Compilation from Source Code](#Compilation from Source Code)
 - [Uninstallation](#uninstallation)
 - [Important Links](#important-links)
 - [Debugging](#debugging)
@@ -122,6 +123,14 @@ There is currently a build of Termux available on Google Play for Android 11+ de
 Currently, Google Play will try to update installations away from F-Droid ones. Updating will still fail as [sharedUserId](https://developer.android.com/guide/topics/manifest/manifest-element#uid) has been removed. A planned 0.118.1 F-Droid release will fix this by setting a higher version code than used for the PlayStore app. Meanwhile, to prevent Google Play from attempting to download and then fail to install the Google Play releases over existing installations, you can open the Termux apps pages on Google Play and then click on the 3 dots options button in the top right and then disable the Enable auto update toggle. However, the Termux apps updates will still show in the PlayStore app updates list.
 
 If you want to help out with testing the Google Play build (or cannot install Termux from other sources), be aware that it's built from a separate repository (https://github.com/termux-play-store/) - be sure to report issues [there](https://github.com/termux-play-store/termux-issues/issues/new/choose), as any issues encountered might very well be specific to that repository.
+
+## Compilation from Source Code
+
+How to Compile Termux from Source Code (by Cloning termux-app repository from Github):
+1. Clone Repository first (from Github.com): `git clone https://github.com/termux/termux-app.git ~/Repositories/termux-app` 
+2. ...
+3. ...
+... (uDev)
 
 ## Uninstallation
 
